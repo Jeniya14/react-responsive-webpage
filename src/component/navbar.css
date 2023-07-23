@@ -1,0 +1,91 @@
+nav{
+  position: sticky;
+  top: 0;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ background-color: #070012;
+ /* height: 90px; */
+ padding: 20px 50px;
+ 
+}
+.navbar h2{
+  color: white;
+  font-size: 2.0rem;
+
+}
+.navbar h2::first-letter{
+  color:#ff01ffeb ;
+}
+.nav-menu{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: space-between;
+}
+.nav-menu li{
+  padding: 0 20px;
+}
+.navbar ul a{
+ color: white;
+ text-decoration: none;
+ font-size: 1.3rem;
+ font-weight: 600;
+ transition: 0.3s ease-in-out;
+}
+.navbar ul a:hover{
+ color: #ff01ff;
+}
+.navbar ul li img{
+  width: 50px;
+  height: 50px;
+}
+
+.menu-icon{
+  display: none;
+}
+.menu-icon i{
+  color: white;
+  align-items: center;
+}
+@media screen and (max-width:769px){
+  .navbar{
+    background-color:  #010014;
+    padding: 15px 50px;
+  }
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   align-items: flex-start;
+   position: fixed;
+   top:68px;
+   right: -300px;
+   width: 300px;
+   height: 100vh;
+   background-color: #010014ec;
+   z-index: 1;
+   transition: 0.3s ease-in-out;
+  }
+  .navbar ul a{
+    font-size: 1.2rem;
+  }
+  .nav-menu.active{
+    right: 0px;
+  }
+  .menu-icon{
+    display: block;
+    font-size: 1.8rem;
+  }
+  .navbar h2{
+    font-size: 1.8rem;
+  
+  }
+  .nav-menu li{
+    margin:  20px;
+  }
+}

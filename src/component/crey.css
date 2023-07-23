@@ -1,0 +1,157 @@
+.crey-container {
+    background: url(../image/creybg.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   height: 100vh;
+   padding: 55px 50px 10px 50px;
+ 
+  
+  }
+  .crey-heading{
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+  .crey-heading h3{
+    width: 500px;
+    font-size: 2.2rem;
+    color: #ff5f1f;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .crey-heading p{
+    font-size: 2.0rem;
+    color: white; 
+  }
+  .crey-heading span{
+    font-weight: 800;
+    color:  #ff01ffeb;
+    font-size: 2.2rem;
+    display: block;
+  }
+  .crey-main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .crey-man-image img{
+    width: 400px;
+    height: 500px;
+  }
+  .crey-flex,.crey-flex-r{
+    margin-top:30px ;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+  }
+  .crey-flex-div{
+    width: 50vh;
+    margin-bottom: 40px;
+    background-color: #02012175 ;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .crey-flex-div h4{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width:769px){
+    .crey-container {
+        padding: 20px 5px;
+        background-position: left;
+        height: 100%;
+    }
+    .crey-main{
+        flex-wrap: wrap;
+    }
+    .crey-man-image img{
+        width: 40vw;
+        height: 55vh;
+      }
+      .crey-flex-r{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10px;
+        width: 100vw;
+      }
+      .crey-flex-div{
+        width: 350px;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #02012189;
+       border-radius: 5px;
+       font-size: 1.3rem;
+      }
+      .crey-flex-div:first-child{
+        order: 2;
+      }
+      .crey-heading h3{
+        font-size: 2.0rem;
+        width: 50vw;
+      }
+      .crey-heading span{
+        font-size: 2.0rem;
+      }
+      .crey-flex-div h4{
+        font-size: 1.5rem;
+      }
+    
+  }
+  @media screen and (max-width:321px){
+    .crey-container{
+        padding: 0;
+       
+    }
+    .crey-main{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .crey-heading{
+        flex-direction: column;
+    }
+    .crey-heading h3{
+        margin: 15px 0px;
+        padding: 10px;
+        width: 100vw;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .crey-heading p{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    .crey-heading span{
+        font-size: 1.5rem;
+    }
+    .crey-man-image img{
+        width: 90vw;
+        height: 55vh;
+      }
+      .crey-flex-div{
+        width: 95vw;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #02012189;
+        font-size: 1.0rem;
+      }
+      .crey-flex-div:first-child{
+        order: 1;
+      }
+      .crey-flex,.crey-flex-r{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin-top:10px ;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        
+      }
+      .crey-flex-div h4{
+        font-size: 1.2rem;
+      }
+  }

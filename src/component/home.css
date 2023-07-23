@@ -1,0 +1,73 @@
+.home-container {
+    background: url(../image/bghome.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   height: 90vh;
+   padding: 100px 50px;
+  }
+.overlay {
+    z-index: 1;
+    background-color: #070012be;
+    border-radius: 10px;
+    box-shadow:1px 0px 7px rgba(255, 255, 255, 0.527);
+    padding: 100px 80px;
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+  }
+ 
+  .overlay p{
+    color: rgb(205, 205, 205);
+  }
+
+.home-button{
+    padding: 10px 50px;
+    border-radius: 14px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    background-color: #ff01ffeb;
+    font-weight: 600;
+    box-shadow: 1px 3px 3px black;
+}
+.home-button:hover{
+    background-color: #b802b8eb;
+    cursor: pointer;
+}
+@media screen and (max-width:769px){
+   
+    .home-container{
+        padding: 50px 50px;
+      
+    }
+    .overlay{
+        font-size: 2.0rem;
+        padding: 45px 25px;
+        /* margin: 30px 20px; */
+    }
+    .overlay h2{
+        margin-bottom: 20px;
+    }
+    .home-button{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:321px){
+    .home-container {
+        background: url(../image/mobbg.jpg);
+        padding: 30px 10px;
+        height: 90vh;
+        background-position: center;
+         background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .overlay{
+        font-size: 1.0rem;
+        padding: 80px 10px;
+        margin: 10px;
+        background-color: #01577adb;
+    }
+
+}

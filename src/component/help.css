@@ -1,0 +1,87 @@
+.help-container{
+    background-image: url(../image/helpbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 90vh;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.help-body{
+    background-color: #32124785;;
+    width: 60vw;  
+    border-radius: 10px; 
+    padding: 60px 0px;
+}
+.help-heading h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow:2px 3px 5px #0274b4;
+}
+.help-heading p{
+    font-size: 1.5rem;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+    
+}
+.help-main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.help-main p{
+ background-color: rgba(169, 169, 169, 0.444);
+ margin: 20px 0px;
+ width: 400px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+ border-radius: 15px;
+ font-size: 1.2rem;
+ font-weight: 600;
+ text-shadow: 0px 1px 1px rgb(43, 43, 43);
+ transition: 0.3s ease-in-out;
+}
+.help-main p:hover{
+    cursor: pointer;
+    background-color: #0273b4a7;
+    box-shadow: 1px 3px 3px black;
+}
+@media screen and (max-width:769px) {
+    .help-container{
+        height: 100vh;
+    }
+    .help-body{
+        height: 80vh;
+    }
+    .help-heading p{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:321px){
+    .help-container{
+        height: 100vh;
+        padding: 50px 0px;
+    }
+    .help-body{
+        padding: 30px 5px;
+        width: 90vw; 
+    }
+    .help-heading h2{
+        font-size: 1.8rem;
+    }
+    .help-heading p{
+        font-size: 1.3rem;
+    }
+    .help-main p{
+        width: 210px;
+        height: 55px;
+        font-size: 1.1rem;
+    }
+}
