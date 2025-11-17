@@ -1,8 +1,12 @@
 # Crey Gaming Website
 
-This repository contains the source code for the Crey Gaming Website, a responsive web application built entirely in ReactJS, using HTML and CSS. The website is designed to showcase gaming content and features a responsive layout to ensure optimal viewing across various devices. It includes a range of gaming-related content and functionalities, providing an engaging user experience.
+This repository contains the source code for the Crey Gaming Website, a responsive web application built entirely in ReactJS, using HTML and CSS. The website is designed to showcase gaming content and features a responsive layout to ensure optimal viewing across various devices. It includes a range of gaming-related content and functionalities, providing an engaging user experi
 
-## Screeshot
+### Designer:
+[Kamali Naganathan](https://www.linkedin.com/in/kamali-naganathan-aa26a2226/)
+
+
+## Screenshot
 ![Screenshot](screenshots/Screenshot1.png)
 
 ![Screenshot](screenshots/Screenshot2.png)
